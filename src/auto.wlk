@@ -22,7 +22,7 @@ object auto {
 
 	//parametros posibles: right, left, up, down.
 	method mover(dir) {
-		if (self.autoSano()){
+		if ( self.autoSano() ){
 		    if (dir == "right") {
 		        self.posicion(self.position().right(1))
 		    } else if (dir == "left") {
